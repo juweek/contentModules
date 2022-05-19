@@ -42,7 +42,7 @@ no CSS for right now
   border: 2px solid #e7e7e7;
   border-radius: 4px;
   padding: 0.5rem;
-  background-image: url("../profile.png");
+  background-image: url("https://raw.githubusercontent.com/juweek/contentModules/main/gridCards/profile.png");
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -53,7 +53,7 @@ no CSS for right now
       rgba(157, 157, 243, 0.73),
       rgba(14, 14, 12, 0.519)
     ),
-    url("../profile.png");
+    url("https://raw.githubusercontent.com/juweek/contentModules/main/gridCards/profile.png");
 }
 
 .card header {
