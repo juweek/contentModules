@@ -1,0 +1,84 @@
+/*
+------------------------------
+no CSS for right now
+------------------------------
+*/
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.card {
+  background-color: antiquewhite;
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 0.5rem;
+  background-image: url("../profile.png");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  background-image: linear-gradient(
+      rgba(157, 157, 243, 0.73),
+      rgba(14, 14, 12, 0.519)
+    ),
+    url("../profile.png");
+}
+
+.card header {
+  font-weight: bold;
+}
+
+#myVideo {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  width: auto;
+  max-height: 100%;
+  min-width: 150%;
+}
+
+.contentArea, .topArea {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+}
+
+
+.topArea {
+  top: 0;
+}
