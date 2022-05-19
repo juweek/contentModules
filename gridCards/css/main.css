@@ -32,7 +32,7 @@ no CSS for right now
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 200px 200px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -42,8 +42,6 @@ no CSS for right now
   border: 2px solid #e7e7e7;
   border-radius: 4px;
   padding: 0.5rem;
-  background-image: url("https://raw.githubusercontent.com/juweek/contentModules/main/gridCards/profile.png");
-  background-size: cover;
   position: relative;
   overflow: hidden;
 }
@@ -69,7 +67,7 @@ no CSS for right now
   min-width: 150%;
 }
 
-.contentArea, .topArea {
+.topArea {
   position: absolute;
   bottom: 0;
   background-color: white;
@@ -78,6 +76,10 @@ no CSS for right now
   padding: 10px;
 }
 
+.contentArea img {
+  width: 100%;
+  padding: 0;
+}
 
 .topArea {
   top: 0;
