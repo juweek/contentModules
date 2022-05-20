@@ -7,7 +7,7 @@ no CSS for right now
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 200px 200px;
+  grid-template-rows: 200px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -43,7 +43,7 @@ no CSS for right now
 }
 
 .topArea {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: white;
   width: 100%;
