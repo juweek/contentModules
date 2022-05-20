@@ -3,19 +3,26 @@
 METHOD: set the size of the canvas
 ------------------------------
 */
-var coll = document.getElementsByClassName("collapsible");
-var i;
+// Get the modal
+// Get the button that opens the modal
+var btn = document.querySelectorAll(".card");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
+let modal = document.querySelector(".modal-content");
 
-//create a row of three HTML buttons 
+
+btn.forEach((element) =>
+  element.addEventListener("click", (event) => {
+    modal.classList.add("active");
+  })
+);
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.classList.remove("active");
+};
+
+
+//create a row of three HTML buttons
