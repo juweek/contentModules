@@ -9,105 +9,26 @@
 <h2 style="margin-bottom: 10px;">Big geographic variations in debt from medical and dental bills</h2>
 <div style="margin-bottom: 10px;">The share of people with medical bills in collections varies widely from one county to another across the country.</div>
 
-<div class="buttonsContainer">
-  <button class="active" data-filter="all">All US Counties</button>
-  <button data-filter="top100" class="">Top 100</button>
-  </div>
-
-<section id="treeMapContainer">
-<div data-chart="all" class="active">
-  <h2>Cartoon me</h2>
-  <img src="https://raw.githubusercontent.com/juweek/datasets/main/images/me_drawing.png" alt="Chloropleth map of every US county in the US, with dark blue corresponding to lower levels of debt, while red correlates to higher levels of debt. There is a large concentration of dark blue in Midwest and Northwestern states, while the Southeast shows varying degrees of red.">
-</div>
-<div data-chart="top100">
-  <h2>IRL me</h2>
-  <img src="https://raw.githubusercontent.com/juweek/datasets/main/images/me_irl.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-</div>
-</section>
-
 <!--
 =========================================================
 The slider sjfdfdf
 =========================================================
 -->
-
-<section class="form-wrapper sliderContainer">
-  <input data-option="1" data-channel="1" type="range" id="tobaccoYearSlider" name="tobaccoYearSlider"
-  min="1" max="12">
-</section>
-
 <main>
 
   <section class="sliderContainer">
 
-  <section class="sliderContainer__slider">
-      <label class="sliderContainer__slider__label">
-        <h2>Tobacco use</h2>
-        <p>The share of people who use tobacco varies from county to county across the country.</p>
-      </label>
-      <input data-option="1" data-channel="1" type="range" id="tobaccoSlider" name="tobaccoSlider"
-      min="0" max="12">
-  </section>
-
- <section id="activity--4" class="selected">
+<section class="form-wrapper sliderContainer">
+  <input type="range" id="tobaccoYearSlider" name="tobaccoYearSlider"
+  min="1996" max="2012" value="1996">
+</section>
+</section>
 
 
-  <div class="wrapper" data-year="1996">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="1997">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="1998">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="1999">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2000">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2001">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2002">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2003">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2004">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2005">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2006">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2007">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2008">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2009">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2010">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2011">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
-  </div>
-  <div class="wrapper" data-year="2012">
-    <img src="./countymap2.png" alt="Map of every US county in the US, with the top 100 counties with US debt highlighted in red. These counties are generally concentratd in the Southeast, going as far west as Texas, and as far north as West Virginia.">
+  <div id="countyMapContainer">
   </div>
 
 
- </section>
-
- </section>
  </main> 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
